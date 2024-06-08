@@ -2,7 +2,13 @@
 
 1. Clonar el repositorio
 2. Crear un `.env` basado en el `.env.template`
-3. Ejecutar el comando
+3. Actualizar submodulos
+
+```bash
+git submodule update --init --recursive
+```
+
+4. Ejecutar el comando
 
 ```pwsh
 docker compose up --build
